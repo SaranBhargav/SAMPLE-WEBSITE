@@ -1,0 +1,63 @@
+header{
+	text-align: center;
+	padding: 40px;
+	background-color: yellow;
+	color : red;
+	font-size: 40px;
+} 
+
+nav {
+  float: left;
+  width: 10%;
+  height: 80%; 
+  background: skyblue;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+a:link{
+	
+	background-color: red;
+	border-style: hidden;
+	border-radius: 5px;
+    padding: 5px; 
+    
+    text-decoration: none;
+}	
+
+form {
+	padding :15px;
+	text-align: center;
+	
+
+}
+
+
+#btn1 {
+	color: white;
+	background-color: red;
+	border-style: hidden;
+	border-radius: 5px;
+	padding: 5px;
+	
+	 
+}	
+#btn2 {
+	color: white;
+	background-color: red;
+	border-style: hidden;
+	border-radius: 5px;
+	padding: 5px;
+	
+	 
+}	
+div{display: block;
+  margin-left: 45%;
+  /*margin-right: auto;
+  margin-bottom: 30px;*/
+}
+
+
+
+
+

@@ -1,0 +1,64 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Register PG</title>
+<link rel="stylesheet" type="text/css" href="Layout.css">
+<style type="text/css">
+	label {
+	
+	text-align: right;
+	float: left;
+	width:800px;
+	margin-bottom: 10px;
+}
+</style>
+</head>
+<body> 
+	<header>
+		User Credential System - Sample website
+	</header>
+	<nav>
+		<ul>
+			<li>
+				<a href="login.html" style=" color: white;"> Login</a>
+			</li>
+		</ul>
+	</nav>
+<form class="Register" action="Registration.php" method=post>
+
+<label for="fname"><span><b> First Name</b></span>
+<input type="text" name="fname" required>
+</label>
+
+<label for="mname"><b> Middle Name</b>
+<input type="text" name="mname"></label>
+
+
+<label for="lname"><b> Last Name</b>
+<input type="text" name="lname" required></label>
+
+<label for="email" ><b> Email</b>
+<input type="email" name="email"required>
+</label>
+<label for="num"><b> mobile number</b>
+<input id="num" type="text" name="num" onchange="validatePhno()" >
+</label>
+<label for="pwd"><b> Password</b>
+<input id="pwds" type="password" name="pwd"required></label>
+
+
+<label for="cnfpwd"><b>Confirm Password</b>
+<input id="cnfpwds" type="password" name="cnfpwd"required onchange="validatePwd()"></label>
+
+ <label for="button">
+<button id="btn1" type="submit" name="button">Register</button></label>
+
+</form>
+
+
+
+<script type="text/javascript" src="Validation.js"></script>
+
+
+</body>
+</html>
